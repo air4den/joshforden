@@ -1,0 +1,29 @@
+.shell-logo {
+    font-family: monospace;
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 1.25rem;
+    color: var(--text-dark);
+}
+
+.shell-prompt {
+    font-weight: 550;
+}
+
+.shell-cursor {
+    display: inline-block;
+    width: 1ch;
+    height: .9em;
+    background-color: rgb(153, 133, 255);
+    margin-left: 1.23ch;
+    animation: blink 1.5s ease-in-out infinite;
+    border-radius: 10%;
+    vertical-align: center;
+}
+
+@keyframes blink {
+    0%, 45%     {opacity: 1;}
+    50%         {opacity: 0;}
+    100%        {opacity: 0;}
+}

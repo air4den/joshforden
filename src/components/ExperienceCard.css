@@ -1,0 +1,73 @@
+.experience-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;                
+    margin-top: 2.5rem;
+}
+
+.experience-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: clamp(300px, 80%, 600px); 
+    max-width: 470px;
+    padding: 1.5rem;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    margin: .1rem auto;
+    flex: 0 0 0;
+}
+
+.exp-content {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin: auto;
+}
+
+.exp-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding: 0;
+}
+
+.exp-logo {
+    width: 80px;
+    height: 80px;
+    margin: 0;
+    padding: 0.25rem;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.exp-company {
+    margin: 0;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    padding: 0;
+    color: var(--text-dark);
+}
+
+.exp-role  {
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin: 0.25rem 0 0;
+}
+
+.exp-location {
+  margin: 0.25rem 0 0;
+  font-size: 1.5rem;
+  color: var(--text-dark);
+}
+
+.exp-date {
+  margin: 0.25rem 0 0;
+  font-size: 1.2rem;
+  color: var(--text-dark);
+}
+
