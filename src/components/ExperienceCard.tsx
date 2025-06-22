@@ -16,14 +16,10 @@ export default function ExperienceCard(
                     <div className='exp-text'>
                         <h3 className="exp-company">{company}</h3>
                         <p className='exp-role'>{role}</p>
-                        <p className='exp-location'>{location} 📍</p>
+                        <p className='exp-location'>{location}</p>
                         <p className='exp-date'>{date}</p>
                     </div>
                 </div>
-
-
-                    
-                
             </div>
         )
     }

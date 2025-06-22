@@ -21,14 +21,14 @@ export default function App() {
   useEffect(() => {
     const sections = Array.from(document.querySelectorAll<HTMLElement>('section[id]'))
     const onScroll = () => {
-      const midY = window.innerHeight / 2
+      const thirdY = window.innerHeight / 3
       let closestId = sections[0].id
       let closestDist = Infinity
 
       sections.forEach(sec => {
         const rect = sec.getBoundingClientRect()
         const secMid = (rect.top + rect.height) / 2
-        const dist = Math.abs(secMid - midY)
+        const dist = Math.abs(secMid - thirdY)
         if (dist < closestDist) {
           closestDist = dist
           closestId = sec.id

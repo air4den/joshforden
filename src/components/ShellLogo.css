@@ -16,7 +16,7 @@
     width: 1ch;
     height: .9em;
     background-color: rgb(153, 133, 255);
-    margin-left: 1.23ch;
+    margin-left: 1ch;
     animation: blink 1.5s ease-in-out infinite;
     border-radius: 10%;
     vertical-align: center;

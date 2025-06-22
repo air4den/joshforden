@@ -16,7 +16,7 @@ const experiences: Exp[] = [
         company: 'The Home Depot',
         role: 'Software Engineer Intern',
         location: 'Atlanta, GA',
-        date: 'Summer 2025'
+        date: 'May 2025 - Present'
     }
 ];
 
