@@ -17,6 +17,7 @@
   --text-dark: rgba(7, 19, 42, 0.87);
   --text-hover: rgba(49, 56, 69, 0.87);
   --nav-h: 60px;
+  --card-shadow: rgba(0, 0, 0, 0.2);
 }
 
 html, body {

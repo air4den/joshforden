@@ -1,5 +1,6 @@
 import AboutCard from "./AboutCard"
 import './About.css'
+import InterestesCard from "./InterestsCard"
 
 export default function About() {
     return (
@@ -7,6 +8,7 @@ export default function About() {
             <h2>About</h2>
             <div className="about-content">
                 <AboutCard />
+                <InterestesCard />
             </div>
         </section>
     )
