@@ -15,7 +15,7 @@
     display: inline-block;
     width: 1ch;
     height: .9em;
-    background-color: rgb(153, 133, 255);
+    background-color: var(--shell-cursor);
     margin-left: 1ch;
     animation: blink 1.5s ease-in-out infinite;
     border-radius: 10%;

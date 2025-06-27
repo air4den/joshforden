@@ -15,7 +15,6 @@ main {
   display: flex;
   flex-direction: column;
   gap: .70rem;
-  padding-top: var(--nav-h);
 }
 
 main > section {
@@ -31,7 +30,8 @@ main > section:nth-child(even) {
 }
 
 footer {
-  padding: 2.5rem 1rem;
+  background-color: var(--bg-card);
+  padding: 1rem 1rem;
 }
 
 h2 {

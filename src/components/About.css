@@ -15,7 +15,7 @@
     padding: 1rem 1.5rem;
     padding-left: 1.75rem;
     border-radius: 8px;
-    background: white;
+    background: var(--bg-card);
     box-shadow: 0 2px 6px var(--card-shadow);
     margin: 0rem auto;
 }
@@ -37,7 +37,7 @@
     aspect-ratio: 6 / 5;
     overflow: hidden;
     border-radius: 15px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px var(--card-shadow);
     flex-shrink: 1;
 }
 .about-card-img {
@@ -48,16 +48,27 @@
     object-position: -10px 0;
 }
 
+.email-link {
+    color: var(--text-dark);
+    text-decoration:none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+.email-link:hover {
+    color: var(--text-hover);
+}
+
 .interests-card {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: .75rem;
-    width: clamp(300px, 80%, 800px); 
+    width: clamp(400px, 80%, 800px); 
     padding: 1.5rem 1rem;
     border-radius: 8px;
-    background: white;
+    background: var(--bg-card);
     box-shadow: 0 2px 6px var(--card-shadow);
     margin: 0rem auto;
     
@@ -83,10 +94,10 @@
     align-items: center;
     justify-content: center;
     padding: 0.4rem .75rem;
-    background: rgb(252, 209, 255);
-    border-color: rgb(246, 121, 255);
-    border-width: 50px;
+    background: var(--bg-interests);
     border-radius: 0.5rem;
+    border: 2.5px solid transparent;
+    transition: border-color 0.2s ease;
     text-decoration: none;
     color: var(--text-dark);
     font-weight: 600;
@@ -97,7 +108,7 @@
 }
 
 .interests-box:hover {
-
+    border-color: var(--shell-cursor);
 }
 
 @media (max-width: 800px) {
@@ -107,7 +118,7 @@
         text-align: center;
         gap: 1rem;
 
-        width: clamp(300px, 80%, 800px); 
+        width: clamp(400px, 80%, 800px); 
         padding: 1.75rem 1rem;
         margin: 0rem auto;
     }

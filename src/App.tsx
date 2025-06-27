@@ -52,7 +52,7 @@ export default function App() {
         <About />
         <Experience />
         <Skills />
-        {/* <Projects /> */}
+        <Projects />
 
       </main>
       <footer>

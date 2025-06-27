@@ -1,15 +1,16 @@
 .skills-grid {
-    margin-top: 1.5rem;
+    margin-top: 2rem;
+    margin: 2rem 1.5rem 0rem 1.5rem;
     display: grid;
     gap: 1rem 2.5rem;
     justify-content: center;
-  
     grid-template-columns: repeat(4, minmax(0, 190px));
+    justify-items: center;
 }
 
 .skill-item {
     border-radius: 8px;
-    background: white;
+    background: var(--bg-card);
     box-shadow: 0 2px 6px var(--card-shadow);
 
     display: flex;
@@ -17,14 +18,13 @@
     align-items: center;
     justify-content: center;
     padding: .6rem;
-    gap: 1rem;
+    gap: .5rem;
     width: 100%;
     max-width: 190px; /* caps how wide each card can get */
     text-align: center;
 }
 
 .skill-item__icon {
-    width: 40px;
     height: 40px;
 }
 
@@ -32,6 +32,10 @@
     font-weight: 600;
     font-size: 1.25rem;
     color: var(--text-dark);
+}
+
+.skills-grid .skill-item:nth-child(3n+1):last-child {
+  grid-column: 2 / 4;
 }
 
 @media (max-width: 800px) {

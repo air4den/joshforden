@@ -16,7 +16,7 @@ const interests = [
 export default function InterestesCard() {
     return (
         <div className="interests-card">
-            <h3 className='interests-card-text-h3'>Interestes</h3>
+            <h3 className='interests-card-text-h3'>Interests</h3>
             <div className='interests-card-grid'>
                 {interests.map(({name, url}) => ( url
                     ? <a
