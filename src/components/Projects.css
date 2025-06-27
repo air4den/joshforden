@@ -7,9 +7,9 @@
 }
 
 .project-card {
-    flex: 1 1 250px;      
-    max-width: 450px;
-    min-width: 450px;
+    flex: 1 1 auto; 
+    width: 100%;     
+    max-width: min(80vw, 450px);
     display: flex;
     flex-direction: column;
     justify-content: center; 

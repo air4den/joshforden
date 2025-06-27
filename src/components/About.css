@@ -2,16 +2,19 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    margin-top: 2rem;
-    
+    margin-top: 2rem;    
+    align-items: center;
+    padding: 0 1rem;
 }
 
 .about-card {
-    box-sizing: border-box;
     display: flex;
     align-items: center;
+    box-sizing: border-box;
+
     gap: 1.5rem;
-    width: clamp(300px, 80%, 800px); 
+    width: clamp(400px, 80%, 800px);
+    max-width: 450px;
     padding: 1rem 1.5rem;
     padding-left: 1.75rem;
     border-radius: 8px;
@@ -71,7 +74,6 @@
     background: var(--bg-card);
     box-shadow: 0 2px 6px var(--card-shadow);
     margin: 0rem auto;
-    
 }
 
 .interests-card-text-h3 {
@@ -118,9 +120,10 @@
         text-align: center;
         gap: 1rem;
 
-        width: clamp(400px, 80%, 800px); 
+        width: 100%;
         padding: 1.75rem 1rem;
         margin: 0rem auto;
+        box-sizing: border-box;
     }
 
     .about-card-img-crop {
@@ -135,6 +138,10 @@
 
     .interests-card-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .interests-card {
+        width: 100%;
+        box-sizing: border-box;
     }
 }
 
