@@ -69,8 +69,7 @@
     color: var(--text-hover);
 }
 .nav-icon-txt:hover {
-    text-shadow: 0 4px 4px var(--card-shadow);
-    color: var(--text-hover);
+    text-shadow: 0 0px 10px var(--shell-cursor);
 }
 
 

@@ -65,8 +65,21 @@ const projects = [
                 </ul>
             </>
         ),
-        skills: ['C++', 'Python', 'SFML', 'PyGame'],
-    }
+        skills: ['C++', 'Python', 'SFML', 'Pygame'],
+    },
+    {
+        title: 'Click Buzz',
+        description: (
+            <>
+                <ul>
+                    <li>Worked in a team that built a backend ML model and frontend application to predict which YouTube video titles will receive the most engagement for Georgia Tech Hacklytics Data Science Hackathon</li>
+                    <li>Scraped and cleaned training data from YouTube videos using YouTube API, Python, Pandas, and Jupyter Notebook</li>    
+                </ul>
+            </>
+        ),
+        skills: ['Python', 'Pandas', 'Jupyter Notebook'],
+        github: 'https://github.com/air4den/joga_bonito'
+    },
 ];
 
 export default function Projects() {

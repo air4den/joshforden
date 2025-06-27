@@ -16,6 +16,10 @@ export const SKILL_ICON_MAP: Record<string, string> = {
     'Google Cloud': 'gcp.png',
     'Next.js': 'nextjs.svg',
     'Docker': 'docker.webp',
+    'Pandas': 'pandas.png',
+    'Jupyter Notebook': 'jupyter.png',
+    'SFML': 'sfml.png',
+    'Pygame': 'pygame.png'
 };
 
 interface ProjectCardProps {
