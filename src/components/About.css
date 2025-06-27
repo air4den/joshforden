@@ -14,7 +14,6 @@
 
     gap: 1.5rem;
     width: clamp(400px, 80%, 800px);
-    max-width: 450px;
     padding: 1rem 1.5rem;
     padding-left: 1.75rem;
     border-radius: 8px;
