@@ -7,5 +7,5 @@ export default defineConfig({
   // base: './',
   plugins: [react(), svgr()],
   publicDir: 'public',
-  base: '/joshforden/',
+  base: '/',
 })
