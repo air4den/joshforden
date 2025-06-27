@@ -78,7 +78,7 @@ const projects = [
             </>
         ),
         skills: ['Python', 'Pandas', 'Jupyter Notebook'],
-        github: 'https://github.com/air4den/joga_bonito'
+        github: 'https://github.com/B-Ricey763/ClickBuzz'
     },
 ];
 

@@ -12,7 +12,7 @@ type Exp = {
 
 const experiences: Exp[] = [
     {
-        logo: '/TheHomeDepot.png',
+        logo: 'TheHomeDepot.png',
         company: 'The Home Depot',
         role: 'Software Engineer Intern',
         location: 'Atlanta, GA',
