@@ -26,6 +26,7 @@
     line-height: 1;
     white-space: nowrap;
     color: var(--text-dark);
+    /* text-shadow: var(--shell-cursor) 0 0 15px; */
 }
 
 .hero-text h2 {

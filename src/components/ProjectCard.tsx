@@ -1,4 +1,4 @@
-// import React from 'react';
+import React from 'react';
 import "./Projects.css"
 import SvgLink from "./assets/link.tsx"
 import SvgGithub from "./assets/github.tsx"; 
@@ -20,7 +20,7 @@ export const SKILL_ICON_MAP: Record<string, string> = {
 
 interface ProjectCardProps {
     title: string;
-    description: string;
+    description: React.ReactNode;
     skills?: string[];
     github?: string;
     other_link?: string;
@@ -29,21 +29,23 @@ interface ProjectCardProps {
 export default function ProjectCard({ title, description, skills = [], github, other_link }: ProjectCardProps) {
     return (
         <div className="project-card">
-            <h3 className="project-header">{title}</h3>
-            <p className="project-description">{description}</p>
-            <div className="project-skills">
-                {skills.map((name:string) => (
-                    <div key={name} className="project-skill">
-                        {SKILL_ICON_MAP[name] && (
-                            <img
-                                src={SKILL_ICON_MAP[name]}
-                                alt={`${name} logo`}
-                                className="project-skill-icon"
-                            />
-                        )}
-                        <span className="project-skill-name">{name}</span>
-                    </div>
-                ))}
+            <div className='project-content'>
+                <h3 className="project-header">{title}</h3>
+                <p className="project-description">{description}</p>
+                <div className="project-skills">
+                    {skills.map((name:string) => (
+                        <div key={name} className="project-skill">
+                            {SKILL_ICON_MAP[name] && (
+                                <img
+                                    src={SKILL_ICON_MAP[name]}
+                                    alt={`${name} logo`}
+                                    className="project-skill-icon"
+                                />
+                            )}
+                            <span className="project-skill-name">{name}</span>
+                        </div>
+                    ))}
+                </div>
             </div>
             <div className="project-links">
                 {github && (
