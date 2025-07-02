@@ -19,7 +19,8 @@ export const SKILL_ICON_MAP: Record<string, string> = {
     'Pandas': 'pandas.png',
     'Jupyter Notebook': 'jupyter.png',
     'SFML': 'sfml.png',
-    'Pygame': 'pygame.png'
+    'Pygame': 'pygame.png',
+    'Terraform': 'terraform.png'
 };
 
 interface ProjectCardProps {

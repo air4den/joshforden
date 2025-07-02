@@ -13,7 +13,9 @@ const displayedSkills = [
     'SQL', 
     'Google Cloud', 
     'Next.js', 
-    'Docker'
+    'Docker',
+    'Terraform',
+    'Pandas', 
 ];
 
 export default function About() {
