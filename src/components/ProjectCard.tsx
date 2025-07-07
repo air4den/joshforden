@@ -20,7 +20,12 @@ export const SKILL_ICON_MAP: Record<string, string> = {
     'Jupyter Notebook': 'jupyter.png',
     'SFML': 'sfml.png',
     'Pygame': 'pygame.png',
-    'Terraform': 'terraform.png'
+    'Terraform': 'terraform.png',
+    'Vite': 'Vite.png',
+    'GitHub Actions': 'ghactions.svg',
+    'GDB': 'gdb.png',
+    'QEMU': 'qemu.png',
+    'MongoDB': 'mongodb.svg',
 };
 
 interface ProjectCardProps {

@@ -14,6 +14,7 @@ const displayedSkills = [
     'Google Cloud', 
     'Next.js', 
     'Docker',
+    'MongoDB',
     'Terraform',
     'Pandas', 
 ];

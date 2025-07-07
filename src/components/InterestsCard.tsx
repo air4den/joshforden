@@ -3,9 +3,9 @@ import './About.css'
 const interests = [
     {   name: '🏃🏼‍♂️ Running',         url: 'https://track.rtrt.me/e/ATC-PUBLIX-ATL-MARATHON-2025#/dash/RURY4PE3'},
     {   name: '⚽️ Soccer',          url: 'https://www.youtube.com/watch?v=4rG1sP1rhow' },
-    {   name: '🏔️ Hiking',          url: 'https://www.alltrails.com/members/josh-forden' },
+    {   name: '🏔️ Hiking',          url: 'https://www.strava.com/athletes/36643544' },
     {   name: '🌄 Photography',     url: 'https://instagram.com/josh_forden' },
-    {   name: '🤟🏻 Spanish',         url: '' },
+    {   name: '🐂 Spanish',         url: 'https://youtu.be/yjHyva9mli4?si=shWoQ7T-EI6hgeSs&t=121' },
     {   name: '⚾️ STL Cardinals',   url: 'https://www.youtube.com/watch?v=PZVCrKcOl78' },
     {   name: '🏈 GT Football',     url: 'https://www.youtube.com/watch?v=Sm6eZ9V9RbM' },
     {   name: '🎣 Fly Fishing',     url: '' },

@@ -68,6 +68,22 @@ const projects = [
         skills: ['C++', 'Python', 'SFML', 'Pygame'],
     },
     {
+        title: 'Personal Website',
+        description: (
+            <>
+                <ul>
+                    <li>Designed and developed an interactive 'living resume' to showcase my interests, experience, skills, and projects</li>
+                    <li>Built a responsive UI with custom CSS for seamless experience across devices</li>
+                    <li>Automated deployment and continuous integration using Vite and GitHub Actions</li>
+                    <li>Used modular React components and TypeScript for a maintainable, scalable codebase</li>
+                </ul>
+            </>
+        ),
+        skills: ['React.js', 'TypeScript', 'HTML', 'CSS', 'Vite', 'GitHub Actions'],
+        github: 'https://github.com/air4den/joshforden',
+        other_link: 'https://joshforden.com'
+    },
+    {
         title: 'Click Buzz',
         description: (
             <>
