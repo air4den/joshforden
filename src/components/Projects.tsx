@@ -8,7 +8,9 @@ const projects = [
         description: (
             <>
                 <ul>
-                    {/* <li></li> */}
+                    <li>Developed & deployed full stack web application to convert Strava GPS data into interactive and customizable heatmap</li>
+                    <li>RESTful backend with Next.js API routes and MongoDB for secure Strava OAuth integration & Strava GPS API data retrieval</li>
+                    <li>Created interactive heatmap visualization with responsive map parameter adjustments and image download</li>
                 </ul>
             </>
         ),
