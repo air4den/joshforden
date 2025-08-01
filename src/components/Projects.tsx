@@ -12,7 +12,7 @@ const projects = [
                 </ul>
             </>
         ),
-        skills: ['TypeScript', 'React.js', 'Next.js', 'MongoDB', 'Node.js', 'Tailwind CSS', 'Vercel', 'Prisma ORM', 'NextAuth'],
+        skills: ['TypeScript', 'React.js', 'Next.js', 'MongoDB', 'Node.js', 'Tailwind CSS', 'Vercel', 'Prisma ORM', 'NextAuth', 'Leaflet'],
         github: 'https://github.com/air4den/footyflow',
         other_link: 'https://jogaflo.joshforden.com'
     },

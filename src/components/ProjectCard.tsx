@@ -30,7 +30,8 @@ export const SKILL_ICON_MAP: Record<string, string> = {
     'Vercel': 'vercel.png',
     'Tailwind CSS': 'tailwind.png',
     'Prisma ORM': 'prisma.svg',
-    'NextAuth': 'nextauth.png'
+    'NextAuth': 'nextauth.png',
+    'Leaflet': 'leaflet.png'
 };
 
 interface ProjectCardProps {
