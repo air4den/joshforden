@@ -26,6 +26,11 @@ export const SKILL_ICON_MAP: Record<string, string> = {
     'GDB': 'gdb.png',
     'QEMU': 'qemu.png',
     'MongoDB': 'mongodb.svg',
+    'Node.js': 'node.png',
+    'Vercel': 'vercel.png',
+    'Tailwind CSS': 'tailwind.png',
+    'Prisma ORM': 'prisma.svg',
+    'NextAuth': 'nextauth.png'
 };
 
 interface ProjectCardProps {

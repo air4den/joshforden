@@ -34,9 +34,9 @@
     color: var(--text-dark);
 }
 
-.skills-grid .skill-item:nth-child(3n+1):last-child {
+/* .skills-grid .skill-item:nth-child(3n+1):last-child {
   grid-column: 2 / 4;
-}
+} */
 
 @media (max-width: 800px) {
   .skills-grid {

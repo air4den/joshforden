@@ -4,6 +4,19 @@ import "./Projects.css"
 
 const projects = [
     {
+        title: 'Joga Flow – Soccer Heatmap from Strava Data ',
+        description: (
+            <>
+                <ul>
+                    {/* <li></li> */}
+                </ul>
+            </>
+        ),
+        skills: ['TypeScript', 'React.js', 'Next.js', 'MongoDB', 'Node.js', 'Tailwind CSS', 'Vercel', 'Prisma ORM', 'NextAuth'],
+        github: 'https://github.com/air4den/footyflow',
+        other_link: 'https://jogaflo.joshforden.com'
+    },
+    {
         title: 'x86 Operating System Optimizations',
         description: (
             <>

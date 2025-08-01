@@ -13,6 +13,7 @@ const displayedSkills = [
     'SQL', 
     'Google Cloud', 
     'Next.js', 
+    'Node.js',
     'Docker',
     'MongoDB',
     'Terraform',
