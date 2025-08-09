@@ -35,6 +35,20 @@ const projects = [
         skills: ['C', 'Assembly', 'GDB', 'QEMU', 'Docker'],
     },
     {
+        title: 'Chip-8 Emulator',
+        description: (
+            <>
+                <ul>
+                    <li>Implemented instruction set opcode handling for CPU fetch, decode, execute cycles</li>
+                    <li>Simulated 16 registers, 4KB memory, stack, program counter, 60hz timers, audio, keyboard input and display rendering</li>
+                </ul>
+            </>
+
+        ),
+        skills: ['C++', 'Assembly', 'SFML'],
+        github: 'https://github.com/air4den/chip8_emulator'
+    },
+    {
         title: 'Joga Bonito',
         description: (
             <>
