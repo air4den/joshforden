@@ -12,7 +12,6 @@
     align-items: center;
 
     width: clamp(300px, 80%, 600px); 
-    max-width: 450px;
     padding: 1.5rem;
     border-radius: 8px;
     background: var(--bg-card);
