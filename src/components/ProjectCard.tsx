@@ -31,7 +31,12 @@ export const SKILL_ICON_MAP: Record<string, string> = {
     'Tailwind CSS': 'tailwind.png',
     'Prisma ORM': 'prisma.svg',
     'NextAuth': 'nextauth.png',
-    'Leaflet': 'leaflet.png'
+    'Leaflet': 'leaflet.png',
+    'Grafana': 'grafana.svg',
+    'Jira': 'jira.svg',
+    'GitHub': 'github.png',
+    'Slack': 'slack.png',
+    'Flask': 'flask.png',
 };
 
 interface ProjectCardProps {

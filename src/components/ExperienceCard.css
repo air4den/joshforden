@@ -71,3 +71,20 @@
   color: var(--text-dark);
 }
 
+.exp-description {
+    font-size: 1.2rem;
+    text-align: left;
+    color: var(--text-dark);
+}
+
+.exp-skills {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0rem .25rem;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
